@@ -45227,12 +45227,6 @@ a.u-link.u-text-hover-grey-90:hover {
   margin-bottom: 0;
 }
 
-.u-header .u-btn-2 {
-  background-image: none;
-  margin: 6px auto 0;
-  padding: 0;
-}
-
 .u-header .u-social-icons-1 {
   height: 78px;
   width: 166px;
@@ -45253,11 +45247,22 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -51px;
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+
+  .u-header .u-social-icons-1 {
+    width: 166px;
+    margin-top: 10px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-text-1 {
     margin-top: -89px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-right: 0;
   }
 }
 
@@ -45299,25 +45304,20 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -72px 215px 0 auto;
 }
 
-.u-footer .u-btn-1 {
-  background-image: none;
-  padding: 0;
-}
-
 .u-footer .u-text-2 {
   margin: -29px 431px 0 96px;
 }
 
-.u-footer .u-btn-2 {
+.u-footer .u-btn-1 {
   background-image: none;
   margin: -24px 238px 0 auto;
   padding: 0;
 }
 
-.u-footer .u-btn-3 {
+.u-footer .u-btn-2 {
   background-image: none;
   border-style: solid;
-  margin: 10px auto 12px 469px;
+  margin: 11px auto;
   padding: 0;
 }
 @media (max-width: 1199px) {
@@ -45346,14 +45346,13 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 82px;
   }
 
-  .u-footer .u-btn-2 {
+  .u-footer .u-btn-1 {
     margin-top: -44px;
     margin-right: 208px;
   }
 
-  .u-footer .u-btn-3 {
+  .u-footer .u-btn-2 {
     margin-top: 34px;
-    margin-left: 269px;
   }
 }
 @media (max-width: 991px) {
@@ -45373,13 +45372,9 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 0;
   }
 
-  .u-footer .u-btn-2 {
+  .u-footer .u-btn-1 {
     margin-top: 20px;
     margin-right: 0;
-  }
-
-  .u-footer .u-btn-3 {
-    margin-left: 49px;
   }
 }
 @media (max-width: 767px) {
@@ -45390,10 +45385,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-2 {
     margin-right: 84px;
-  }
-
-  .u-footer .u-btn-3 {
-    margin-left: 0;
   }
 }
 @media (max-width: 575px) {
@@ -45421,14 +45412,13 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: 0;
   }
 
-  .u-footer .u-btn-2 {
+  .u-footer .u-btn-1 {
     margin-top: 1px;
     margin-right: 10px;
   }
 
-  .u-footer .u-btn-3 {
+  .u-footer .u-btn-2 {
     margin-top: 30px;
-    margin-left: auto;
     margin-bottom: 14px;
   }
 }
