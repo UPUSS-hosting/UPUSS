@@ -35,86 +35,57 @@
 				"https://www.instagram.com/opuss__vpk/"
 		]
 }</script>
+
     <meta name="theme-color" content="#478ac9">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-   <body 
+  <body 
   data-home-page="OPUSS.html" data-home-page-title="OPUSS" data-path-to-root="./" data-include-products="false" class="u-body u-overlap u-overlap-transparent u-stick-footer u-xl-mode" data-lang="sk">
-    <div id="loading-screen" style="display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100vh; background-color: #ffffff; position: fixed; top: 0; left: 0; width: 100%; z-index: 9999; transition: opacity 0.5s ease-in-out; opacity: 1; overflow: hidden; pointer-events: all;">
-      <img src="images/Opusslogo1.png" alt="Opuss Logo" class="loading-logo" style="width: 200px; height: auto; margin-bottom: 30px;">
-      <h1 class="loading-text" style="font-size: 48px; color: #ffffff; text-align: center;">OPUSS</h1>
-      <p class="loading-subtext" style="font-size: 32px; color: #ffffff; text-align: center;">plyn-voda-kurenie</p>
-    </div>
-    <header class="u-clearfix u-header u-palette-1-base u-sticky u-sticky-5b9e u-header" id="header"><div class="u-clearfix u-sheet u-sheet-1">
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        if (!sessionStorage.getItem('firstVisit')) {
-          const loadingScreen = document.getElementById('loading-screen');
-          const html = document.documentElement; // Select the <html> element
-          const body = document.body;
-    
-          // Show the loading screen and disable scrolling
-          loadingScreen.style.display = 'flex';
-          html.style.overflow = 'hidden'; // Disable scrolling on <html>
-          html.style.height = '100%'; // Ensure no scrolling
-          body.style.overflow = 'hidden'; // Disable scrolling on <body>
-          body.style.height = '100%'; // Ensure no scrolling
-    
-          setTimeout(() => {
-            // Start fade-out effect
-            loadingScreen.style.opacity = '0';
-    
-            setTimeout(() => {
-              // Hide the loading screen and re-enable scrolling
-              loadingScreen.style.display = 'none';
-              html.style.overflow = ''; // Re-enable scrolling on <html>
-              html.style.height = ''; // Reset height
-              body.style.overflow = ''; // Re-enable scrolling on <body>
-              body.style.height = ''; // Reset height
-            }, 500); // Matches the fade-out transition duration
-          }, 2400); // Initial delay before fade-out starts
-    
-          sessionStorage.setItem('firstVisit', 'true');
-        }
-      });
-    </script>
     <div id="loading-screen" style="display: none; justify-content: center; align-items: center; flex-direction: column; height: 100vh; background-color: #ffffff; position: fixed; top: 0; left: 0; width: 100%; z-index: 9999; transition: opacity 0.5s ease-in-out; opacity: 1; overflow: hidden; pointer-events: all;">
       <img src="images/Opusslogo1.png" alt="Opuss Logo" class="loading-logo" style="width: 200px; height: auto; margin-bottom: 30px;">
       <h1 class="loading-text" style="font-size: 48px; color: #ffffff; text-align: center;">OPUSS</h1>
       <p class="loading-subtext" style="font-size: 32px; color: #ffffff; text-align: center;">plyn-voda-kurenie</p>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          if (!sessionStorage.getItem('firstVisit')) {
+            const loadingScreen = document.getElementById('loading-screen');
+            const html = document.documentElement; // Select the <html> element
+            const body = document.body;
+      
+            // Show the loading screen and disable scrolling
+            loadingScreen.style.display = 'flex';
+            html.style.overflow = 'hidden'; // Disable scrolling on <html>
+            html.style.height = '100%'; // Ensure no scrolling
+            body.style.overflow = 'hidden'; // Disable scrolling on <body>
+            body.style.height = '100%'; // Ensure no scrolling
+      
+            setTimeout(() => {
+              // Start fade-out effect
+              loadingScreen.style.opacity = '0';
+      
+              setTimeout(() => {
+                // Hide the loading screen and re-enable scrolling
+                loadingScreen.style.display = 'none';
+                html.style.overflow = ''; // Re-enable scrolling on <html>
+                html.style.height = ''; // Reset height
+                body.style.overflow = ''; // Re-enable scrolling on <body>
+                body.style.height = ''; // Reset height
+              }, 500); // Matches the fade-out transition duration
+            }, 2400); // Initial delay before fade-out starts
+      
+            if (typeof sessionStorage !== 'undefined') {
+              sessionStorage.setItem('firstVisit', 'true');
+            }
+          } else {
+            const loadingScreen = document.getElementById('loading-screen');
+            if (loadingScreen) {
+              loadingScreen.style.display = 'none';
+            }
+          }
+        });
+      </script>
     </div>
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-      if (!sessionStorage.getItem('firstVisit')) {
-        const loadingScreen = document.getElementById('loading-screen');
-        const html = document.documentElement; // Select the <html> element
-        const body = document.body;
-    
-        // Show the loading screen and disable scrolling
-        loadingScreen.style.display = 'flex';
-        html.style.overflow = 'hidden'; // Disable scrolling on <html>
-        html.style.height = '100%'; // Ensure no scrolling
-        body.style.overflow = 'hidden'; // Disable scrolling on <body>
-        body.style.height = '100%'; // Ensure no scrolling
-    
-        setTimeout(() => {
-        // Start fade-out effect
-        loadingScreen.style.opacity = '0';
-    
-        setTimeout(() => {
-          // Hide the loading screen and re-enable scrolling
-          loadingScreen.style.display = 'none';
-          html.style.overflow = ''; // Re-enable scrolling on <html>
-          html.style.height = ''; // Reset height
-          body.style.overflow = ''; // Re-enable scrolling on <body>
-          body.style.height = ''; // Reset height
-        }, 500); // Matches the fade-out transition duration
-        }, 2400); // Initial delay before fade-out starts
-    
-        sessionStorage.setItem('firstVisit', 'true');
-      }
-      });
-    </script>   
+    <header class="u-clearfix u-header u-palette-1-base u-sticky u-sticky-5b9e u-header" id="header"><div class="u-clearfix u-sheet u-sheet-1">
     <a href="#" class="u-align-left u-image u-logo u-image-1" data-image-width="492" data-image-height="673">
           <img src="images/Opusslogo1.png" class="u-logo-image u-logo-image-1">
         </a>
