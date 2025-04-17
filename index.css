@@ -1348,3 +1348,7 @@
       opacity: 0;
       visibility: hidden;
   }
+}
+.no-scroll {
+  overflow: hidden !important;
+}
